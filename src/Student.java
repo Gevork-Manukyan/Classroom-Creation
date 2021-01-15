@@ -19,7 +19,7 @@ public class Student extends Person implements Displayable
    public String display()
    {
 
-	  String student = "Student ID: " + getStudentId() + "  " + getFullName() + " Final Grade: " + getFinalGrade();
+	  String student = "Student ID: " + getStudentId() + "  " + getFullName() + " Final Grade: " + getFinalGrade() + "%";
       return student;
 	  
    }

@@ -94,7 +94,7 @@ public class PrintReports {
 		
 		//gets student grade
 		do {
-			System.out.println("Please enter student's final grade (mark): ");
+			System.out.println("Please enter student's final grade (%): ");
 			finalGrade = input.nextInt();
 		}while(finalGrade<0 || finalGrade>100);
 		
@@ -104,7 +104,7 @@ public class PrintReports {
 	}
 
 	//Prints out all classrooms
-	void d(ArrayList<Displayable> list)
+	void report (ArrayList<Displayable> list)
 	{
 		//loop for scanning through ArrayList and printing
 		for (Displayable classroom : list)
